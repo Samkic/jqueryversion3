@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Huiswerk JQuery</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <div class="banner"><header><img src="landscape.jpeg" alt="nature landscape mountains" id="landscape"></header></div>
+    <h2>Welkom op mijn JQuery pagina</h2>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium est deleniti ducimus quisquam dolorum, nulla cumque repudiandae saepe praesentium. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus aliquam ipsam, dolor numquam aliquid voluptate veniam veritatis necessitatibus rem dolores. Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita harum nihil sunt! Exercitationem sint veritatis voluptatum in, eaque quisquam! Nesciunt.</p>
+    <div id="accordion">
+        <h3>Dit is een voorbeeldparagraaf JQuery</h3>
+        <div><p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic doloremque reprehenderit, totam provident corporis officiis id, numquam nesciunt consectetur laborum illo. Doloremque, ea exercitationem dolorem quo praesentium nemo reprehenderit optio a, expedita mollitia dolores ad obcaecati. Cumque, quam reiciendis voluptate inventore dolorum temporibus fugit dolores asperiores perferendis autem quibusdam eius.</p></div>
+        <h3>Dit is een voorbeeldparagraaf 1</h3>
+        <div><p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic doloremque reprehenderit, totam provident corporis officiis id, numquam nesciunt consectetur laborum illo. Doloremque, ea exercitationem dolorem quo praesentium nemo reprehenderit optio a, expedita mollitia dolores ad obcaecati. Cumque, quam reiciendis voluptate inventore dolorum temporibus fugit dolores asperiores perferendis autem quibusdam eius.</p></div>
+        <h3>Dit is een voorbeeldparagraaf 2</h3>
+        <div><p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic doloremque reprehenderit, totam provident corporis officiis id, numquam nesciunt consectetur laborum illo. Doloremque, ea exercitationem dolorem quo praesentium nemo reprehenderit optio a, expedita mollitia dolores ad obcaecati. Cumque, quam reiciendis voluptate inventore dolorum temporibus fugit dolores asperiores perferendis autem quibusdam eius.</p></div></div>
+        <button id="verberg">Verberg</button>
+<button id="toon">Toon</button>
+<p>Met de knoppen kunt u deze tekst tonen en verbergen.</p>
+<footer>&copy; NHA Webdesign</footer>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js" integrity="sha256-lSjKY0/srUM9BE3dPm+c4fBo1dky2v27Gdjm2uoZaL0=" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="http://code.jquery.com/ui/1.12.0/themes/base/jquery-ui.css">
+<script type="text/javascript">
+    $(function() {
+    $("#accordion").accordion();
+    });
+    </script>
+    <script type="text/javascript">
+        $(document).ready(function() {
+        $("#verberg").click(function() {
+        $("p").hide();
+        });
+        $("#toon").click(function() {
+        $("p").show();
+        });
+        });
+        </script>
+ <noscript>
+    Om deze website optimaal te gebruiken is het noodzakelijk om JavaScript te activeren.</noscript>
+</body>
+</html>

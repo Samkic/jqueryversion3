@@ -1,0 +1,25 @@
+body{
+    background-color: lavender;
+    color: grey;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+}
+h2{
+    font-size: 30px;
+    text-align: center;
+}
+h3{
+    background-color: rgba(230, 230, 250, 0.522);
+    text-align: center;
+    font-size: 20px;
+}
+.banner{
+   width: auto;
+   margin-left: 20%;
+    
+}
+#landscape{
+    max-width: 100%;
+    max-height: 200px; 
+    border-radius: 15%; 
+}
